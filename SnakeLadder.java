@@ -21,18 +21,18 @@ public class SnakeLadder
 		switch((int)option)
 		{
 			case NO_PLAY :
-				playerOnePosition=playerPosition;
+				playerOnePosition=playerOnePosition;
 				break;
 			case LADDER :
-				playerOnePosition=playerPosition + (int)diceNumber;
+				playerOnePosition=playerOnePosition + (int)diceNumber;
 				break;
 			case SNAKE :
-				playerOnePosition=playerPosition - (int)diceNumber;
+				playerOnePosition=playerOnePosition - (int)diceNumber;
 		}
 		checkReachedWin();
 	}
 	//check Win Position
-	public static void checkReachdWin()
+	public static void checkReachedWin()
 	{
 		if(playerOnePosition <= INITIAL_POSITION)
 		{
