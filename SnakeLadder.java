@@ -4,7 +4,7 @@ public class SnakeLadder
 {
 	//constrants
 	final static int INITIAL_POSITION=0;
-	final static int FINAL_POSITION=0;
+	final static int FINAL_POSITION=100;
 	final static int NO_PLAY=0;
 	final static int LADDER=1;
 	final static int SNAKE=2;
