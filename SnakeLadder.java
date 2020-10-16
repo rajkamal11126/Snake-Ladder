@@ -42,6 +42,10 @@ public class SnakeLadder
 		{
 			playerOnePosition=FINAL_POSITION;
 		}
+		else if(playerOnePosition > FINAL_POSITION)
+		{
+			playerOnePosition=playerOnePosition-(int)diceNumber;
+		}
 	}
 	//main
 	public static void main(String[] args)
